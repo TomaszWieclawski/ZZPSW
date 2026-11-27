@@ -1,0 +1,42 @@
+# ==========================================
+# Keil uVision4 (pliki IDE, cache i logi)
+# ==========================================
+# Ustawienia GUI, okna, breakpointy i nazwa użytkownika (np. *.uvgui.Tomasz)
+*.uvopt
+*.uvgui.*
+*.uvgui_*
+*.bak
+*.UVL
+*.uvl
+
+# Cache zależności i indeksowania kodu (duże pliki binarne)
+*.crf
+*.dep
+*.d
+
+# Tymczasowe pliki kompilatora, linkera i logi budowania
+*.plg
+*.tra
+*.lnp
+*.__i
+*._ia
+*.iex
+*.fed
+*.build_log.htm
+JLinkLog.txt
+
+# ==========================================
+# Atmel Studio / Visual Studio (z obecnego repo ZZPSW)
+# ==========================================
+.vs/
+*.atsuo
+*.tmp
+makedep.mk
+
+# ==========================================
+# Pozostałości po oryginalnym repozytorium FreeRTOS
+# ==========================================
+FreeRTOS/Source/.github/
+FreeRTOS/Source/.gitattributes
+FreeRTOS/Source/.git-blame-ignore-revs
+FreeRTOS/Source/.gitmodules
